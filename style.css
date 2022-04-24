@@ -1,0 +1,54 @@
+/*Syntax CSS
+
+Selector {property:  value; property: value}
+
+*/
+
+/*(*)symbol specify the universal selector meaning, we can select all HTML elements */
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h3 {
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	height: 250px ;
+	width: 250px ;
+}
+
+#landing { /*(#) is for id*/
+	height: 80vh; /*vh - viewport height*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.tools { /*(.) is for class*/
+	border: 5px solid #f2f2f2; /*line arround the element*/
+	margin: 20px; /*space outside the elements*/
+	padding: 25px; /*space inside the elements*/
+	height: 200px;
+	width: 75%; /*percentage (%) as a measurement for width is based on the total width of the parent element*/
+}
+
+html {
+	scroll-behavior: smooth;
+}
